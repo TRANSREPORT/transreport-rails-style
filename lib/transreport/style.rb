@@ -5,6 +5,6 @@ require_relative "style/version"
 module Transreport
   module Style
     class Error < StandardError; end
-    # Your code goes here...
+    # Intentionally blank - there is no code here.
   end
 end
