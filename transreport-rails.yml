@@ -1,0 +1,31 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.0
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'db/seeds.rb'
+    - 'doc/**/*'
+    - 'bin/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
+
+Layout/LineLength:
+  Max: 100
+
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/**/*'
+    - 'spec/**/*'
+
+Style/NumericLiteralPrefix:
+  Exclude:
+    - 'spec/**/*'
