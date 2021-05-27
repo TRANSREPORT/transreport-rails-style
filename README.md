@@ -1,15 +1,15 @@
-# Transreport::Style
+# transreport-style
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/transreport/style`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a linting gem for Transreport Web Team's Ruby repos.
+It acts as a central space to store configuration for `rubocop`,
+which can be loaded into other repos with ease.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'transreport-style'
+gem 'transreport-style', git: 'https://github.com/TRANSREPORT/transreport-style', tag: '0.1.0'
 ```
 
 And then execute:
@@ -22,17 +22,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your repo, simply change your `.rubocop.yml` file as follows:
+
+```yml
+inherit_gem:
+  transreport-style:
+    - transreport-rails.yml
+  
+# If you are not running Ruby 3.0
+AllCops:
+  TargetRubyVersion: <YOUR.VERSION>
+```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/transreport-style.
+TBC
 
 ## License
 
