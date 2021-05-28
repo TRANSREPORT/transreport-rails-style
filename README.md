@@ -9,7 +9,7 @@ which can be loaded into other repos with ease.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'transreport-style', git: 'https://github.com/TRANSREPORT/transreport-style', tag: '0.1.0'
+gem 'transreport-style', git: 'https://github.com/TRANSREPORT/transreport-style', tag: 'v0.1.0'
 ```
 
 And then execute:
@@ -33,6 +33,21 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: <YOUR.VERSION>
 ```
+
+## Contributing
+
+Please do not make changes in this repo without consulting the wider team first,
+this repo is the source of truth for our linting rules but they are not agreed here.
+The web team discusses the linting rules and its stylistic choices before recording them here.
+
+Once a change has been agreed:
+
+1. Please branch off of `master` onto a `feature/` branch
+1. Make your change(s)
+1. Update documentation accordingly
+1. Bump the gem version
+1. Raise a PR
+1. Once merged, tag `master` with the gem version
 
 ## Development
 
