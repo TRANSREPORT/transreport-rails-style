@@ -26,6 +26,15 @@ Metrics/BlockLength:
     - 'config/**/*'
     - 'spec/**/*'
 
+Rspec/ExampleLength:
+  Max: 15
+
+Rspec/MultipleExpectations:
+  Max: 5
+
+Rspec/NestedGroups:
+  Max: 5
+
 Style/NumericLiteralPrefix:
   Exclude:
     - 'spec/**/*'
