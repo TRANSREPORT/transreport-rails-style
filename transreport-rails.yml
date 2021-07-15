@@ -26,9 +26,6 @@ Metrics/BlockLength:
     - 'config/**/*'
     - 'spec/**/*'
 
-Rspec/ExampleLength:
-  Max: 15
-
 Rspec/NestedGroups:
   Max: 5
 
