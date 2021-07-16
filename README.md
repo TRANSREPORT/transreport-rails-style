@@ -9,7 +9,7 @@ which can be loaded into other repos with ease.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'transreport-style', git: 'https://github.com/TRANSREPORT/transreport-style', tag: 'v0.1.0'
+gem 'transreport-style', git: 'https://github.com/TRANSREPORT/transreport-style', tag: 'v0.2.0'
 ```
 
 And then execute:
