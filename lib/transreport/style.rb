@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "style/version"
+require_relative 'style/version'
 
 module Transreport
   module Style
