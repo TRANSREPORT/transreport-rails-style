@@ -15,6 +15,7 @@ AllCops:
     - 'node_modules/**/*'
     - 'tmp/**/*'
     - 'engines/**/*'
+    - 'spec/dummy/**/*'
 
 Layout/LineLength:
   Max: 100
