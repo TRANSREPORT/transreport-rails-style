@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    transreport-style (0.4.0)
+    transreport-style (0.4.1)
       rubocop-performance (~> 1.11)
       rubocop-rails (~> 2.11)
       rubocop-rspec (~> 2.4)
