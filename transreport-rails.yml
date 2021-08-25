@@ -28,7 +28,7 @@ Metrics/BlockLength:
     - 'config/**/*'
     - 'spec/**/*'
 
-Rspec/NestedGroups:
+RSpec/NestedGroups:
   Max: 5
 
 Style/NumericLiteralPrefix:
