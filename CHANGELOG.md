@@ -4,6 +4,10 @@ All notable changes to this project should be documented in this file, in one of
 ### Added / Changed / Fixed / Removed / Tested
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.4.2 (2021-12-14)
+### Added
+- Exclude `db/data_schema.rb` file from checks 'Style/NumericLiterals'
+
 ## v0.4.1 (2021-08-25)
 ### Changed
 - Upgrade `rubocop`
