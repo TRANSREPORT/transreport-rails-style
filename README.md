@@ -9,7 +9,7 @@ which can be loaded into other repos with ease.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'transreport-style', git: 'git@github.com:TRANSREPORT/transreport-rails-style.git', tag: 'v0.4.1'
+gem 'transreport-style', git: 'git@github.com:TRANSREPORT/transreport-rails-style.git', tag: 'v0.4.2'
 ```
 
 And then execute:
@@ -28,7 +28,7 @@ In your repo, simply change your `.rubocop.yml` file as follows:
 inherit_gem:
   transreport-style:
     - transreport-rails.yml
-  
+
 # If you are not running Ruby 3.0
 AllCops:
   TargetRubyVersion: <YOUR.VERSION>
